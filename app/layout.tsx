@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Syne } from 'next/font/google'
 import './globals.css'
+import UiHeader from '@/components/UiHeader'
 
 const syne = Syne({ subsets: ['latin'] })
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={syne.className}>{children}</body>
+      <body className={syne.className}>
+        <UiHeader />
+        {children}
+      </body>
     </html>
   )
 }
