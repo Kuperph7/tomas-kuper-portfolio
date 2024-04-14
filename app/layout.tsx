@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Syne } from 'next/font/google'
 import './globals.css'
 import UiHeader from '@/components/UiHeader'
+import { LanguageProvider } from '@/context/LanguageContext'
 
 const syne = Syne({ subsets: ['latin'] })
 
@@ -16,11 +17,13 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={syne.className}>
-        <UiHeader />
-        {children}
-      </body>
-    </html>
+    <LanguageProvider>
+      <html lang="en">
+        <body className={syne.className}>
+          <UiHeader />
+          {children}
+        </body>
+      </html>
+    </LanguageProvider>
   )
 }

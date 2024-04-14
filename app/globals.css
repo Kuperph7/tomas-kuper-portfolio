@@ -3,21 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 10, 61, 51;
   --background-start-rgb: 244, 243, 240;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: #0a3d33;
-    --background-start-rgb: #f4f3f0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --background-end-rgb: 244, 243, 240;
+  --element-bg-color: rgb(10, 61, 51);
+  --element-color-color: rgb(244, 243, 240);
+  --button-bg-color: rgb(10, 61, 51);
+  --button-color-color: rgb(244, 243, 240);
+  --button-hover-bg-color: rgb(244, 243, 240);
+  --button-hover-color-color: rgb(10, 61, 51);
 }
 
 body {
-  padding: 40px 250px; /* top/bottom 40px, right/left 150px */
+  padding: 40px 250px;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -27,10 +25,45 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-/* Media query para dispositivos con anchura máxima de 600px */
-@media (max-width: 600px) {
+body.dark {
+  --foreground-rgb: 244, 243, 240;
+  --background-start-rgb: 10, 61, 51;
+  --background-end-rgb: 10, 61, 51;
+  --element-bg-color: rgb(244, 243, 240);
+  --element-color-color: rgb(10, 61, 51);
+  --button-bg-color: rgb(244, 243, 240);
+  --button-color-color: rgb(10, 61, 51);
+  --button-hover-bg-color: rgb(10, 61, 51);
+  --button-hover-color-color: rgb(244, 243, 240);
+}
+
+.element {
+  background-color: var(--element-bg-color);
+  color: var(--element-color-color);
+}
+
+.button {
+  background-color: var(--button-bg-color);
+  color: var(--button-color-color);
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.button:hover {
+  background-color: var(--button-hover-bg-color);
+  color: var(--button-hover-color-color);
+}
+
+@media (max-width: 1100px) {
   body {
-    padding: 20px 50px; /* top/bottom 10px, right/left 50px */
+    padding: 20px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    padding: 20px 50px;
   }
 }
 

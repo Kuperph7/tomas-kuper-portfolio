@@ -1,4 +1,5 @@
 import UiCards from './UiCards'
+import profilePic from '@/public/Logo.png'
 
 const UiProjects = () => {
   return (
@@ -11,18 +12,21 @@ const UiProjects = () => {
             desc="Lorem ipsum dolor sit amet consectetur adipiscing elit, porttitor
           gravida eleifend donec justo neque sodales, dictumst facilisis nisl
           placerat blandit hac."
+            img={profilePic}
           />
           <UiCards
             title="Title project"
             desc="Lorem ipsum dolor sit amet consectetur adipiscing elit, porttitor
           gravida eleifend donec justo neque sodales, dictumst facilisis nisl
           placerat blandit hac."
+            img={profilePic}
           />
           <UiCards
             title="Title project"
             desc="Lorem ipsum dolor sit amet consectetur adipiscing elit, porttitor
           gravida eleifend donec justo neque sodales, dictumst facilisis nisl
           placerat blandit hac."
+            img={profilePic}
           />
         </div>
       </div>
