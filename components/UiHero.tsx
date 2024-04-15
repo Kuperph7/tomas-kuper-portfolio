@@ -8,14 +8,14 @@ import translate from '@/interface/translate'
 const UiHero = ({ translate, language }: translate) => {
   return (
     <>
-      <div className="my-10 sm:mt-40 sm:mb-52 relative">
+      <div className="my-20 sm:mt-40 sm:mb-52 relative">
         <div className="">
           {language === 'en'
             ? translate.hero.en.pronoun
             : translate.hero.es.pronoun}
         </div>
         {/* Sección para el título */}
-        <div className="absolute right-0 top-0 w-24 h-24 sm:w-52 sm:h-52 lg:w-64 lg:h-64 rounded-full element">
+        <div className="absolute right-0 top-0 w-20 h-20 sm:w-52 sm:h-52 lg:w-64 lg:h-64 rounded-full element">
           <Image src={profilePic} alt="Profile" />
         </div>
         <h1 className="text-4xl font-semibold text-start sm:text-7xl max-w-5">

@@ -12,7 +12,7 @@ const LanguageSelector = () => {
   }
 
   return (
-    <div className="w-24 flex rounded-full shadow-xl overflow-hidden">
+    <div className="sm:w-24 w-16 flex rounded-full shadow-xl overflow-hidden">
       <button
         onClick={() => handleSetLanguage('en')}
         className={`flex-1 text-center py-2 text-sm transition-colors duration-300 ease-in-out ${

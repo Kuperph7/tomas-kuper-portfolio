@@ -18,7 +18,7 @@ const SelectMode = () => {
 
   return (
     <div
-      className="w-10 h-10 relative group cursor-pointer"
+      className="sm:w-10 sm:h-10 w-8 h-8 relative group cursor-pointer"
       onClick={handleSetMode}
     >
       <Image

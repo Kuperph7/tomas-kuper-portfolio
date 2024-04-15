@@ -23,7 +23,7 @@ const UiHeader = () => {
   return (
     <>
       {/* Sección para el logo */}
-      <header className="flex lg:justify-between justify-center items-center">
+      <header className="flex justify-between items-center">
         <div className="text-2xl font-bold text-center sm:text-start">
           KUPER
         </div>
@@ -55,7 +55,7 @@ const UiHeader = () => {
             </li> */}
           </ul>
         </nav>
-        <div className="flex items-center gap-5 lg:flex hidden">
+        <div className="flex items-center gap-5">
           <SelectMode />
           <LanguageSelector />
         </div>
