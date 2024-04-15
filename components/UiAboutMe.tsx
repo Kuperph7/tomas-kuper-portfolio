@@ -1,6 +1,6 @@
 import translate from '@/interface/translate'
 import Image from 'next/image'
-import profilePic from '@/public/picture.png'
+import profilePic from '@/public/followMe.png'
 
 const UiAboutMe = ({ translate, language }: translate) => {
   return (

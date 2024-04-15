@@ -15,13 +15,13 @@ export default function Home() {
         pronoun: 'I´m',
         title: '',
         description: 'Web developer passionate about technology',
-        button: 'Download CV',
+        button: 'See CV',
       },
       es: {
         pronoun: 'Soy',
         title: '',
         description: 'Desarrollador web apasionado por la tecnología',
-        button: 'Descargar CV',
+        button: 'Ver CV',
       },
     },
     jobs: {
