@@ -6,7 +6,7 @@ const UiButton = (props: { title: string }) => {
     <>
       <Link
         href={
-          'https://drive.google.com/file/d/1CDjPT6OdIzyRsA_fnzfM9D0MfPdLmwVY/view?usp=sharing'
+          'https://drive.google.com/file/d/1inn4BNuCMLM3gsgAqkP7ybbvb7NMAkAn/view?usp=sharing'
         }
         className="rounded-full text-white text-base py-2 sm:py-3 px-5 sm:px-8 font-semibold button"
         target="_blank"
