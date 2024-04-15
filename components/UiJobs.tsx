@@ -42,6 +42,7 @@ const UiJobs = ({ translate, language }: translate) => {
                 : translate.jobs.zink.es.description
             }
             img={profilePic}
+            url="https://zink.tips/"
           />
         </div>
       </div>

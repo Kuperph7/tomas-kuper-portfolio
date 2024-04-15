@@ -11,8 +11,6 @@ const LanguageSelector = () => {
     }
   }
 
-  console.log(language, 'language') // Buen punto para depuración
-
   return (
     <div className="w-24 flex rounded-full shadow-xl overflow-hidden">
       <button

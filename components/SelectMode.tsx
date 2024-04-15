@@ -16,8 +16,6 @@ const SelectMode = () => {
     document.body.classList.toggle('dark', !mode)
   }, [mode])
 
-  console.log(mode, 'mode')
-
   return (
     <div className="w-10 h-10 relative group" onClick={handleSetMode}>
       <Image

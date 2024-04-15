@@ -3,7 +3,6 @@
 import UiHero from '@/components/UiHero'
 import UiJobs from '@/components/UiJobs'
 import { useLanguage } from '@/context/LanguageContext'
-import { title } from 'process'
 
 export default function Home() {
   const { language } = useLanguage()

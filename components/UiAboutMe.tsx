@@ -1,5 +1,3 @@
-import UiCards from './UiCards'
-
 const UiAboutMe = () => {
   return (
     <>
