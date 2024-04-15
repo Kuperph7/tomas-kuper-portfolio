@@ -1,8 +1,8 @@
 import UiCards from './UiCards'
-import profilePic from '@/public/Logo.png'
 import travel from '@/public/travel.png'
 import airdrop from '@/public/airdrop.svg'
 import translate from '@/interface/translate'
+import zink from '@/public/zink.svg'
 
 const UiJobs = ({ translate, language }: translate) => {
   return (
@@ -41,7 +41,7 @@ const UiJobs = ({ translate, language }: translate) => {
                 ? translate.jobs.zink.en.description
                 : translate.jobs.zink.es.description
             }
-            img={profilePic}
+            img={zink}
             url="https://zink.tips/"
           />
         </div>

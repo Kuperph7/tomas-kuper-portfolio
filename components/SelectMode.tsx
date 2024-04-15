@@ -17,7 +17,10 @@ const SelectMode = () => {
   }, [mode])
 
   return (
-    <div className="w-10 h-10 relative group" onClick={handleSetMode}>
+    <div
+      className="w-10 h-10 relative group cursor-pointer"
+      onClick={handleSetMode}
+    >
       <Image
         src={mode ? sun : moon}
         alt={mode ? 'Sun' : 'Moon'}

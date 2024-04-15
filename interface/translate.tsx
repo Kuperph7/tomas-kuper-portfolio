@@ -45,6 +45,32 @@ export default interface translate {
         }
       }
     }
+
+    about: {
+      en: {
+        title: string
+        desc1: string
+        desc2: string
+        desc3: string
+      }
+      es: {
+        title: string
+        desc1: string
+        desc2: string
+        desc3: string
+      }
+    }
+
+    contact: {
+      en: {
+        title: string
+        cta: string
+      }
+      es: {
+        title: string
+        cta: string
+      }
+    }
   }
   language: string
 }

@@ -12,6 +12,7 @@
   --button-color-color: rgb(244, 243, 240);
   --button-hover-bg-color: rgb(244, 243, 240);
   --button-hover-color-color: rgb(10, 61, 51);
+  --contact-bg-color: rgb(244, 243, 240);
 }
 
 body {
@@ -35,11 +36,16 @@ body.dark {
   --button-color-color: rgb(10, 61, 51);
   --button-hover-bg-color: rgb(10, 61, 51);
   --button-hover-color-color: rgb(244, 243, 240);
+  --contact-bg-color: rgb(244, 243, 240);
 }
 
 .element {
   background-color: var(--element-bg-color);
   color: var(--element-color-color);
+}
+
+.contact {
+  background-color: var(--contact-bg-color);
 }
 
 .button {
