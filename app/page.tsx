@@ -4,6 +4,7 @@ import UiAboutMe from '@/components/UiAboutMe'
 import UiContact from '@/components/UiContact'
 import UiHero from '@/components/UiHero'
 import UiJobs from '@/components/UiJobs'
+import UiStack from '@/components/UiStack'
 import { useLanguage } from '@/context/LanguageContext'
 
 export default function Home() {
@@ -80,6 +81,14 @@ export default function Home() {
           'Además de mi habilidad técnica, me considero un eterno aprendiz y un geek de la programación, siempre en busca de nuevas tecnologías y metodologías para mejorar mi trabajo y contribuir a la comunidad tecnológica.',
       },
     },
+    stack: {
+      en: {
+        title: 'My Stack',
+      },
+      es: {
+        title: 'Mí Stack',
+      },
+    },
     contact: {
       en: {
         title: 'You can find me in:',
@@ -97,6 +106,7 @@ export default function Home() {
       <UiHero translate={translations} language={language} />
       <UiJobs translate={translations} language={language} />
       <UiAboutMe translate={translations} language={language} />
+      <UiStack translate={translations} language={language} />
       <UiContact translate={translations} language={language} />
     </main>
   )

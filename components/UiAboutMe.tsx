@@ -5,7 +5,7 @@ import profilePic from '@/public/followMe.png'
 const UiAboutMe = ({ translate, language }: translate) => {
   return (
     <>
-      <div className="sm:my-52 mt-20">
+      <div className="sm:my-52 mt-20 scroll-mt-32" id="about">
         <h2 className="text-2xl font-semibold text-center">
           {language === 'en'
             ? translate.about.en.title

@@ -61,6 +61,15 @@ export default interface translate {
       }
     }
 
+    stack: {
+      en: {
+        title: string
+      }
+      es: {
+        title: string
+      }
+    }
+
     contact: {
       en: {
         title: string

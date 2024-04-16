@@ -39,6 +39,10 @@ body.dark {
   --contact-bg-color: rgb(244, 243, 240);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .element {
   background-color: var(--element-bg-color);
   color: var(--element-color-color);

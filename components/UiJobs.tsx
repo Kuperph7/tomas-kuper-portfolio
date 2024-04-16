@@ -7,7 +7,7 @@ import zink from '@/public/zink.svg'
 const UiJobs = ({ translate, language }: translate) => {
   return (
     <>
-      <div className="my-10">
+      <div className="my-10 scroll-mt-32" id="jobs">
         <h2 className="text-2xl font-semibold text-center">
           {language === 'en'
             ? translate.jobs.title.en
