@@ -10,7 +10,7 @@ import graphQlLogo from '@/public/graphql.svg'
 const UiStack = ({ translate, language }: translate) => {
   return (
     <>
-      <div className="sm:my-52 mt-20 scroll-mt-32" id="about">
+      <div className="sm:my-52 mt-20 scroll-mt-24" id="stack">
         <h2 className="text-2xl font-semibold text-center">
           {language === 'en'
             ? translate.stack.en.title

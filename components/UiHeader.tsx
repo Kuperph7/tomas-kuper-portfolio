@@ -11,12 +11,12 @@ const UiHeader = () => {
     en: {
       about: 'About Me',
       jobs: 'My Jobs',
-      projects: 'My Projects',
+      stack: 'My Stack',
     },
     es: {
       about: 'Acerca de Mí',
       jobs: 'Mis Trabajos',
-      projects: 'Mis proyectos',
+      stack: 'Mí proyectos',
     },
   }
 
@@ -30,6 +30,14 @@ const UiHeader = () => {
         <nav className="lg:flex hidden">
           <ul className="flex gap-5 items-center font-semibold">
             <li className="relative group">
+              <a href="#jobs" className="block">
+                {language === 'en'
+                  ? translations.en.jobs
+                  : translations.es.jobs}
+              </a>
+              <div className="h-1 w-0 element group-hover:w-full transition-all duration-300 ease-out"></div>
+            </li>
+            <li className="relative group">
               <a href="#about" className="block">
                 {language === 'en'
                   ? translations.en.about
@@ -38,10 +46,10 @@ const UiHeader = () => {
               <div className="h-1 w-0 element group-hover:w-full transition-all duration-300 ease-out"></div>
             </li>
             <li className="relative group">
-              <a href="#jobs" className="block">
+              <a href="#stack" className="block">
                 {language === 'en'
-                  ? translations.en.jobs
-                  : translations.es.jobs}
+                  ? translations.en.stack
+                  : translations.es.stack}
               </a>
               <div className="h-1 w-0 element group-hover:w-full transition-all duration-300 ease-out"></div>
             </li>
