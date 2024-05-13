@@ -33,31 +33,31 @@ export default function Home() {
       travel: {
         en: {
           description:
-            'In this work I developed together with my team a robust e-commerce booking system for a tourism agency using Next.JS, StrapiCMS and GraphQl.',
+            'I developed together with my team an e-commerce site for a tourism agency using Next.JS, StrapiCMS and GraphQl.',
         },
         es: {
           description:
-            'En este trabajo desarrollé junto con mi equipo un e-commerce de reservas de excusriones para una agencia de turismo utilizando Next.JS, StrapiCMS y GraphQl',
+            'Desarrollé junto con mi equipo una página de e-commerce para una agencia de turismo utilizando Next.JS, StrapiCMS y GraphQl.',
         },
       },
       airdrop: {
         en: {
           description:
-            'In this project I developed the frontend of an innovative blockchain application for secure and efficient transactions using Next.JS, StrapiCMS y GraphQl',
+            'Developed the frontend of a blockchain application for secure and efficient transactions using Next.JS, StrapiCMS, and GraphQl.',
         },
         es: {
           description:
-            'En este proyecto desarrollé el frontend del una aplicación de blockchain para transacciones seguras y eficientes utilizando Next.JS, StrapiCMS y GraphQl',
+            'Desarrollé el frontend de una aplicación blockchain para transacciones seguras y eficientes utilizando Next.JS, StrapiCMS y GraphQl.',
         },
       },
       zink: {
         en: {
           description:
-            'In this project I developed together with my team an application to facilitate donations and fund management using Next.JS, StrapiCMS y GraphQl',
+            'I developed an application to facilitate donations and fund management using Next.JS, StrapiCMS and GraphQl.',
         },
         es: {
           description:
-            'En este proyecto desarrollé junto con mi equipo una aplicación intuitiva para facilitar donaciones y gestión de fondos utilizando Next.JS, StrapiCMS y GraphQl',
+            'Desarrollé una aplicación para facilitar las donaciones y la gestión de fondos utilizando Next.JS, StrapiCMS y GraphQl.',
         },
       },
     },

@@ -23,7 +23,7 @@ const UiCards = (props: {
           <div className="text-center py-2 font-semibold text-lg">
             {props.title}
           </div>
-          <p>{props.desc}</p>
+          <p className="pb-10">{props.desc}</p>
         </article>
       </Link>
     </>
